@@ -2,20 +2,15 @@ PODS:
   - SampleSDK (1.0.0)
 
 DEPENDENCIES:
-  - SampleSDK (from `https://github.com/satyadevchauhan/SampleFramework.git`)
+  - SampleSDK
 
-EXTERNAL SOURCES:
-  SampleSDK:
-    :git: https://github.com/satyadevchauhan/SampleFramework.git
-
-CHECKOUT OPTIONS:
-  SampleSDK:
-    :commit: 9a76425d91404066f6e21fa90ab28a4641473fcc
-    :git: https://github.com/satyadevchauhan/SampleFramework.git
+SPEC REPOS:
+  https://github.com/satyadevchauhan/PodSpecs.git:
+    - SampleSDK
 
 SPEC CHECKSUMS:
-  SampleSDK: 41a3fc4498f945169c521c533cef3b301149e19e
+  SampleSDK: 2b8196c9fbd7d06d45113d01228da4142974b22e
 
-PODFILE CHECKSUM: 8b0cb993ccb8db32197a73dd9409ee23c33c61e0
+PODFILE CHECKSUM: d72a2220c16a1ffe96fab7b37167ba64d62e9658
 
 COCOAPODS: 1.15.2

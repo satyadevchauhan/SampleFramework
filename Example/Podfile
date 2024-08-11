@@ -1,11 +1,14 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '12.0'
 
+source 'https://github.com/satyadevchauhan/PodSpecs.git'
+
 target 'Example' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for Example
-	pod 'SampleSDK',	:git=>'https://github.com/satyadevchauhan/SampleFramework.git'
+	# pod 'SampleSDK',	:git=>'https://github.com/satyadevchauhan/SampleFramework.git'
+  pod 'SampleSDK' # Uses source to download the repo
 
 end
