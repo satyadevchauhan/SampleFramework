@@ -1,0 +1,138 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SampleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "App",
+        "printedName": "App",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "App",
+                "printedName": "SampleSDK.App",
+                "usr": "s:9SampleSDK3AppC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9SampleSDK3AppCACycfc",
+            "mangledName": "$s9SampleSDK3AppCACycfc",
+            "moduleName": "SampleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "featureOne",
+            "printedName": "featureOne()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SampleSDK3AppC10featureOneyyF",
+            "mangledName": "$s9SampleSDK3AppC10featureOneyyF",
+            "moduleName": "SampleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "featureTwo",
+            "printedName": "featureTwo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SampleSDK3AppC10featureTwoyyF",
+            "mangledName": "$s9SampleSDK3AppC10featureTwoyyF",
+            "moduleName": "SampleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "featureThree",
+            "printedName": "featureThree()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SampleSDK3AppC12featureThreeyyF",
+            "mangledName": "$s9SampleSDK3AppC12featureThreeyyF",
+            "moduleName": "SampleSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9SampleSDK3AppC",
+        "mangledName": "$s9SampleSDK3AppC",
+        "moduleName": "SampleSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/satyadevchauhan\/Documents\/Workspace\/GitCheckout\/SampleSDK\/SampleSDK\/App.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 12,
+      "value": "\"FeatureOne\""
+    },
+    {
+      "filePath": "\/Users\/satyadevchauhan\/Documents\/Workspace\/GitCheckout\/SampleSDK\/SampleSDK\/App.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 12,
+      "value": "\"FeatureTwo\""
+    },
+    {
+      "filePath": "\/Users\/satyadevchauhan\/Documents\/Workspace\/GitCheckout\/SampleSDK\/SampleSDK\/App.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 14,
+      "value": "\"FeatureThree\""
+    }
+  ]
+}
