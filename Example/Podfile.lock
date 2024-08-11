@@ -1,0 +1,21 @@
+PODS:
+  - SampleSDK (1.0.0)
+
+DEPENDENCIES:
+  - SampleSDK (from `https://github.com/satyadevchauhan/SampleFramework.git`)
+
+EXTERNAL SOURCES:
+  SampleSDK:
+    :git: https://github.com/satyadevchauhan/SampleFramework.git
+
+CHECKOUT OPTIONS:
+  SampleSDK:
+    :commit: 9a76425d91404066f6e21fa90ab28a4641473fcc
+    :git: https://github.com/satyadevchauhan/SampleFramework.git
+
+SPEC CHECKSUMS:
+  SampleSDK: 41a3fc4498f945169c521c533cef3b301149e19e
+
+PODFILE CHECKSUM: 8b0cb993ccb8db32197a73dd9409ee23c33c61e0
+
+COCOAPODS: 1.15.2
